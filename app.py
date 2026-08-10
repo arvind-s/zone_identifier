@@ -32,8 +32,8 @@ st.set_page_config(page_title="AEZ Block Explorer", layout="wide")
 #     "/mnt/user-data/uploads/all_blocks_states_CG_AP_TS_OD_MH_WB.shp",
 # )
 
-CSV_PATH = "/Users/mipl/Documents/Regen_ag/AWD/All_blocks/AWD Sampling_all_blocks.csv"
-SHP_PATH = "/Users/mipl/Documents/Regen_ag/AWD/All_blocks/all_blocks_states_CG_AP_TS_OD_MH_WB.shp"
+CSV_PATH = "AWD Sampling_all_blocks.csv"
+SHP_PATH = "all_blocks_states_CG_AP_TS_OD_MH_WB.geojson"
 
 
 

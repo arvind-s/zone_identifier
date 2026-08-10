@@ -6,3 +6,5 @@ shapely>=2.0
 pyproj>=3.6
 plotly>=5.20
 matplotlib>=3.8
+folium>=0.16.0
+streamlit-folium>=0.20.0

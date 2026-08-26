@@ -19,9 +19,6 @@ from aez_core import (
     build_color_map, assign_display_color, reproject_and_simplify,
 )
 from aez_maps import build_plotly_map
-if not hasattr(go, "Choroplethmapbox"):
-    if hasattr(go, "Choroplethmap"):
-        go.Choroplethmapbox = go.Choroplethmap
 st.set_page_config(page_title="AEZ Block Explorer", layout="wide")
 
 # ---------------------------------------------------------------------------

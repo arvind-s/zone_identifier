@@ -11,9 +11,6 @@ import json
 
 import folium
 import plotly.graph_objects as go
-if not hasattr(go, "Choroplethmapbox"):
-    if hasattr(go, "Choroplethmap"):
-        go.Choroplethmapbox = go.Choroplethmap
 
 def build_folium_map(gdf, color_col="display_color", label_col="zone_label"):
     """gdf must be in EPSG:4326 and have columns: State, District, Block, and label/color cols."""
